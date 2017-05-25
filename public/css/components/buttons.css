@@ -38,6 +38,27 @@
     border: 1px solid #5d2d86;
 }
 
+.btn-form-black {
+    box-shadow: none;
+    border: 1px solid #1a1a1a;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px 30px;
+    font-weight: 600;
+}
+
+.btn-form-black:hover,
+.btn-form-black:focus,
+.btn-form-black:visited {
+    background-color: #1a1a1a;
+    color: #fff;
+    box-shadow: none;
+    border: 1px solid #1a1a1a;
+}
+
 .link-info {
     color: #272727;
     text-decoration: underline;

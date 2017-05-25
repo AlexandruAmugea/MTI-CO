@@ -9,14 +9,16 @@ app.use("/public", express.static(__dirname + '/public'));
 
 // use res.render to load up an ejs view file
 
-// index page
 app.get('/login', function(req, res) {
     res.render('pages/login');
 });
 
-// about page
 app.get('/', function(req, res) {
     res.render('pages/index');
+});
+
+app.get('/recover', function(req, res) {
+    res.render('pages/recover');
 });
 
 app.listen(8081);
