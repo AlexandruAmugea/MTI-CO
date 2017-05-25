@@ -11,12 +11,12 @@ app.use("/public", express.static(__dirname + '/public'));
 
 // index page
 app.get('/login', function(req, res) {
-    res.render('login');
+    res.render('pages/login');
 });
 
 // about page
-app.get('/home', function(req, res) {
-    res.render('index.html');
+app.get('/', function(req, res) {
+    res.render('pages/index');
 });
 
 app.listen(8081);

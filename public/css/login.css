@@ -2,3 +2,21 @@
 @import "utils/typography.css";
 @import "components/forms.css";
 @import "components/errors.css";
+@import "components/buttons.css";
+
+.login-left-section {
+    background: url("../images/login/left-section.png") no-repeat left top;
+    background-size: cover;
+    height: 100vh;
+    border-right: 10px solid #5d2d86;
+}
+
+.login-logo {
+    position: absolute;
+    left: -50px;
+    top: 50px;
+}
+
+.login-form {
+    padding: 150px 0;
+}
