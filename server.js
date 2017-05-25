@@ -21,4 +21,12 @@ app.get('/recover', function(req, res) {
     res.render('pages/recover');
 });
 
+app.get('/register', function(req, res) {
+    res.render('pages/register');
+});
+
+app.get('/register-final-step', function(req, res) {
+    res.render('pages/register-final-step');
+});
+
 app.listen(8081);

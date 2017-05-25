@@ -14,6 +14,24 @@
     margin-bottom: 150px;
 }
 
+.login-form.register-form .form-header {
+    margin-bottom: 50px;
+}
+
+.checkbox {
+    font-size: 11px;
+}
+
+.checkbox a {
+    font-weight: 500;
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+.checkbox a:hover {
+    text-decoration: underline;
+}
+
 form {
     max-width: 500px;
     margin: 0 auto;
