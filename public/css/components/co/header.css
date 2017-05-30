@@ -1,0 +1,18 @@
+.co-header {
+    background: #fafafa;
+    padding: 15px 50px;
+}
+
+.co-header img {
+    width: 200px;
+    height: auto;
+}
+
+.profile-section {
+    width: 30%;
+    float: left;
+    height: calc(100vh - 100px);
+    height: 100%;
+    background: #343434;
+    background-size: 100%;
+}
