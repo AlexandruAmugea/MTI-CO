@@ -90,3 +90,53 @@
 .term-docs-section ul li a:focus {
     text-decoration: underline;
 }
+
+
+
+.nav-tabs-form-wrapper {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.nav-tabs-form li {
+    float: left;
+    width: 40%;
+}
+
+.nav-tabs-form li:nth-child(2) {
+    width: 20%;
+}
+
+.nav-tabs-form #form-demo {
+    width: 100%;
+    background-color: #95d600;
+    color: #1a1a1a;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav-tabs-form #form-real {
+    width: 100%;
+    background-color: #5d2d86;
+    color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav-tabs-form li > a:hover,
+.nav-tabs-form li > a:visited,
+.nav-tabs-form li > a:focus {
+    text-decoration: none;
+}
+
+.nav-tabs-form img {
+    height: 40px;
+}

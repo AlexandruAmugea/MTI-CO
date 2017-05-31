@@ -51,7 +51,7 @@
 .right-section {
     float: left;
     width: 75%;
-    padding: 150px 50px 0;
+    padding: 150px 50px 50px;
     margin-left: 25%;
 }
 
@@ -59,3 +59,28 @@
     margin-bottom: 30px;
 }
 
+/* Table styles */
+
+table.simple-table {
+    text-align: center;
+    margin: 15px auto;
+    width: 100%;
+}
+
+table.simple-table thead > tr > td {
+    padding: 30px 30px;
+    text-align: center;
+    color: #5d2d86;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+table.simple-table tbody > tr > td {
+    padding: 15px 30px;
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 14px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
