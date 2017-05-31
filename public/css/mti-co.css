@@ -6,3 +6,19 @@
 @import "components/co/header.css";
 @import "components/co/left-menu.css";
 @import "components/lists.css";
+
+.deposit-section-icons img {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.deposit-section-icons p {
+    font-size: 12px;
+}
+
+.deposit-section-icons p strong {
+    font-size: 28px;
+    color: #5d2d86;
+}

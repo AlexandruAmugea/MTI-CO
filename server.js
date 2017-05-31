@@ -33,5 +33,42 @@ app.get('/open-account', function(req, res) {
     res.render('pages/co/open-account');
 });
 
+app.get('/transfers', function(req, res) {
+    res.render('pages/co/transfers');
+});
+
+app.get('/open-account', function(req, res) {
+    res.render('pages/co/open-account');
+});
+
+app.get('/deposit', function(req, res) {
+    res.render('pages/co/deposit');
+});
+
+app.get('/history', function(req, res) {
+    res.render('pages/co/history');
+});
+
+app.get('/withdrawal', function(req, res) {
+    res.render('pages/co/withdrawal');
+});
+
+app.get('/platforms', function(req, res) {
+    res.render('pages/co/platforms');
+});
+
+app.get('/contest', function(req, res) {
+    res.render('pages/co/contest');
+});
+
+app.get('/withdrawal', function(req, res) {
+    res.render('pages/co/withdrawal');
+});
+
+app.get('/contact', function(req, res) {
+    res.render('pages/co/contact');
+});
+
+
 app.listen(3030);
 console.log('App started on port 3030');

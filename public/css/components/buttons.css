@@ -18,6 +18,26 @@
     border: 1px solid #95d600;
 }
 
+.btn-execute {
+    box-shadow: none;
+    border: 1px solid #5d2d86;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #5d2d86;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 30px;
+}
+
+.btn-execute:hover,
+.btn-execute:focus,
+.btn-execute:visited {
+    background-color: #5d2d86;
+    color: #fff;
+    box-shadow: none;
+    border: 1px solid #5d2d86;
+}
+
 .btn-login {
     box-shadow: none;
     border: 1px solid #5d2d86;
