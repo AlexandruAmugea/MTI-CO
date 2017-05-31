@@ -157,6 +157,42 @@
     margin: 0 auto;
 }
 
+.btn-dashboard {
+    border: 1px solid #000;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    width: 200px;
+    position: relative;
+    overflow: visible;
+}
+
+.btn-dashboard:before {
+    content: "";
+    width: 0px;
+    height: 4px;
+    position: absolute;
+    left: -1px;
+    top: -5px;
+    background: #95d600;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    -ms-transition: .5s all ease;
+    -o-transition: .5s all ease;
+    transition: .5s all ease;
+}
+.btn-dashboard:hover:before {
+    width: 200px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    -ms-transition: .5s all ease;
+    -o-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+
 @media screen and (max-width: 1400px) {
     .footer-buttons {
         text-align: center;
