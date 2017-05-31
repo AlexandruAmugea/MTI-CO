@@ -2,19 +2,18 @@
     box-shadow: none;
     border: 1px solid #95d600;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     background-color: #95d600;
     border-radius: 5px;
-    font-size: 14px;
-    padding: 6px 30px;
-    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 30px;
 }
 
 .btn-submit-green:hover,
 .btn-submit-green:focus,
 .btn-submit-green:visited {
     background-color: #95d600;
-    color: #000;
+    color: #fff;
     box-shadow: none;
     border: 1px solid #95d600;
 }

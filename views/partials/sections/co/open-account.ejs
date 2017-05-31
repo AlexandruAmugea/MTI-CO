@@ -1,15 +1,16 @@
 <div class="right-section">
     <div class="row">
         <div class="col-sm-2 col-xs-6">
-            <button class="btn btn-open-account-anchor green">Open<strong>Demo</strong></button>
+            <button class="btn btn-open-account-anchor green" id="form-open-demo-btn">Open<strong>Demo</strong></button>
         </div>
         <div class="col-sm-2 col-xs-6">
-            <button class="btn btn-open-account-anchor grey">Request<strong>Real</strong></button>
+            <button class="btn btn-open-account-anchor grey" id="form-open-real-btn">Request<strong>Real</strong></button>
         </div>
     </div>
     <br>
     <br>
     <form action="">
+        <input type="hidden" value="demo" id="account-type">
         <div class="row">
             <div class="col-sm-4 col-xs-12">
                 <div class="form-group">
@@ -56,6 +57,8 @@
 
                     </label>
                 </div>
+                <br>
+                <button type="submit" class="btn btn-md btn-submit-green"><strong>Open</strong>Demo</button>
             </div>
             <div class="col-sm-5 col-xs-12">
                 <br>
@@ -74,5 +77,33 @@
             </div>
         </div>
     </form>
+    <hr>
+    <div class="row">
+        <div class="col-xs-12 col-sm-7">
+            <h6><strong>Opening a Corporate Account</strong></h6>
+            <p>In order to open a Corporate Real Account with Mega Trade Invest you will be required to fill in the </p>
+            <p>Corporate Application Form and send an e-mail to compliance@megatraveinvest.com.</p>
+
+            <h5 class="purple-badge">
+                <strong>CORPORATE</strong>
+                <br>
+                Aplication form
+            </h5>
+            <p>As an important note, the Corporate Application Form is required to be signed by the legal representative of the</p>
+            <p>company and also have the company's stamp applied.</p>
+            <p>Moreover, please ensure that you send us all the following documents (also mentioned in the form):</p>
+            <br>
+            <p><strong>After we receive all the necessary documents, we will reply to your application in due time.</strong></p>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+            <ul class="list-check">
+                <li><i class="fa fa-check"></i>certified copy of the legal representative's personal ID;</li>
+                <li><i class="fa fa-check"></i>copy of the power of attorney (if applicable);</li>
+                <li><i class="fa fa-check"></i>copy of the Articles of Association;</li>
+                <li><i class="fa fa-check"></i>copy of the Articles of Association;</li>
+                <li><i class="fa fa-check"></i>bank statement - not older than three months.</li>
+            </ul>
+        </div>
+    </div>
 </div>
 </div><!-- End or row from left.ejs -->
