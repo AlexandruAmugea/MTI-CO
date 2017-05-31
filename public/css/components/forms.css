@@ -20,6 +20,7 @@
 
 .checkbox {
     font-size: 11px;
+    line-height: 1.5;
 }
 
 .checkbox a {
@@ -32,7 +33,7 @@
     text-decoration: underline;
 }
 
-form {
+.login-form form {
     max-width: 500px;
     margin: 0 auto;
 }
@@ -66,4 +67,26 @@ form {
     text-align: center;
     color: #1a1a1a;
     margin-bottom: 15px;
+}
+
+.term-docs-section ul {
+    text-align: left;
+    margin: 30px 0 0;
+}
+
+.term-docs-section ul li {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.term-docs-section ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+.term-docs-section ul li a:hover,
+.term-docs-section ul li a:visited,
+.term-docs-section ul li a:focus {
+    text-decoration: underline;
 }

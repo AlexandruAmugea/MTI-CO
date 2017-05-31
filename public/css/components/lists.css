@@ -1,0 +1,15 @@
+ul.list-check {
+    list-style: none;
+}
+
+ul.list-check li .fa {
+    margin-right: 5px;
+    color: #95d600;
+}
+
+ul.list-check li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1a1a1a;
+    margin-bottom: 5px;
+}

@@ -29,6 +29,9 @@ app.get('/register-final-step', function(req, res) {
     res.render('pages/register-final-step');
 });
 
+app.get('/open-account', function(req, res) {
+    res.render('pages/co/open-account');
+});
+
 app.listen(3030);
 console.log('App started on port 3030');
-///fdsafdsf dsadas
